@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carta {
+  background-color: white;
+  width: 270px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+#arribaPalo {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-size: 100px;
+}
+
+#numero {
+  font-size: 100px;
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+#abajoPalo {
+  font-size: 100px;
+  margin-top: -15px;
+  margin-right: 10px;
+  transform: rotate(-180deg);
+}
